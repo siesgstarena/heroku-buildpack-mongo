@@ -1,0 +1,9 @@
+[buildpack]
+name = "MongoDB"
+
+  [publish.Ignore]
+  files = [
+    "etc/",
+    "test/",
+    ".gitignore"
+]
